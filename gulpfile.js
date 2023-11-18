@@ -28,4 +28,4 @@ function dev(done) {
 
 exports.css = css;
 exports.appJS = appJS;
-exports.dev = parallel(versionWebp, versionAvif, appJS, dev);
+exports.dev = parallel(appJS, dev);
