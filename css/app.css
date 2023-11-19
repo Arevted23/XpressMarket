@@ -1,6 +1,24 @@
-body {
-    background-color: #fff;
+:root {
+    --blanco: #fff;
+    --colorVerdeBotones: #71c55b;
 }
+
+
+/* *Globales* */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 10rem;
+}
+
+body {
+    background-color: var(--blanco);
+}
+
 .main-menu {
     width: 2.5rem;
     height: 2.5rem;
@@ -11,6 +29,7 @@ body {
     height: 7rem;
     margin-top: -1.5rem;
 }
+
 .main-logo:hover {
     cursor: pointer;
 }
@@ -30,7 +49,8 @@ body {
     background-color: #c2a13e;
     color: white;
 }
-.main-button:hover{
+
+.main-button:hover {
     color: white;
     border: 1px solid #000;
     background-color: #000;
@@ -61,7 +81,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 1.5rem;
+    margin: 0 1.5rem;
 }
 
 .superMarket-img {
@@ -71,7 +91,90 @@ body {
 }
 
 
+/*Seccion categorias*/
+
+.padding {
+    padding: 3.5rem;
+}
+
+.secciones h1 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.boton-verde {
+    background-color: var(--colorVerdeBotones);
+    border-radius: 3rem;
+    padding: 1.5rem;
+}
+
+.btn-Articulo {
+    border-radius: 3rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.marcas img {
+    border-radius: 10rem;
+}
+
+.marcas {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.artPrincipales {
+    margin-top: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.gridArticulos {
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.gridPromociones {
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 
+/*Secciones de Link*/
 
+.presentacion {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}
 
+.bg-carne {
+    background-repeat: no-repeat;
+    background-image: url('img/Portadas/portadaCarnes.png');
+    background-position: center;
+    /* Ajusta según tus necesidades */
+}
+
+.bg-vino {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('img/Portadas/portadaVinos.png');
+}
+
+.bg-lacteos {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('img/Portadas/portadalacteos.png');
+}
+
+.bg-pan {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('img/Portadas/portadaPanaderia.png');
+}

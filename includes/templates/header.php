@@ -42,25 +42,3 @@
             <a href="#"><img class="main-carrito" src="/img/header/3144456.png" alt="carrito"></a>
         </nav>
     </header>
-
-    <div class="shadow">
-        <img class="superMarket-img" src="img/header/WhatsApp Image 2023-11-18 at 1.38.36 AM.jpeg" alt="XpressMarket">
-    </div>
-
-    <div class="presentacion">
-        <div class="bg-carnes">
-            <a href="carnes.html">Carnes</a>
-        </div>
-        <div class="bg-vino">
-            <a href="vinos.html">Vinos</a>
-        </div>
-        <div class="bg-lacteos">
-            <a href="lacteos.html">Lacteos</a>
-        </div>
-        <div class="bg-pan">
-            <a href="panaderia.html">Panaderia</a>
-        </div>
-    </div>
-</body>
-
-</html>
