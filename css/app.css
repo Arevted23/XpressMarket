@@ -104,6 +104,23 @@ nav ul {
     line-height: 0.2rem;
 }
 
+/*===========================================================================================*/
+.div-color {
+    background-color: black;
+    margin-top: -2rem;
+    background-image: url(../img/header/explosion-polvo-blanco-sobre-fondo-negro-nube-color-polvo-colorido-estalla_44314-430.avif); 
+    /* background-image: url(../img/header/WhatsApp\ Image\ 2023-11-22\ at\ 2.48.25\ PM.jpeg);  */
+    max-width: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding: 10rem;
+} 
+
+.img-trigo {
+    
+}
+
+
 
 
 
