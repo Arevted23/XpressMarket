@@ -53,7 +53,7 @@
 
 .li-link {
     padding-top: 2.6rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
 }
 
 .user-link {
@@ -104,25 +104,115 @@ nav ul {
     line-height: 0.2rem;
 }
 
-/*===========================================================================================*/
-.div-color {
-    background-color: black;
-    margin-top: -2rem;
-    background-image: url(../img/header/explosion-polvo-blanco-sobre-fondo-negro-nube-color-polvo-colorido-estalla_44314-430.avif); 
-    /* background-image: url(../img/header/WhatsApp\ Image\ 2023-11-22\ at\ 2.48.25\ PM.jpeg);  */
-    max-width: 100%;
-    background-repeat: no-repeat; 
-    background-position: center;
-    padding: 10rem;
-} 
-
-.img-trigo {
+.separador {
+    background-color: white;
+    padding: 3rem;
     
 }
 
+.frase-separador {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: black;
+    margin-top: 0.5rem;
+}
 
+.auto-frase-separador {
+    display: flex;
+    justify-content: center;
+    color: #989898;
+    margin-top: -1rem;
+}
 
+.div-color {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    background-color: black;
+    padding: 10rem;
+} 
 
+.logo-img-bread {
+    width: 7rem;
+    height: 7rem;
+}
+
+.acomodo {
+    margin-top: -10rem;
+    margin-left: -6.8rem;
+}
+
+.acomodo-2 {
+    margin: 3rem 2rem 1rem -6.8rem;
+}
+
+.img-2 {
+    width: 30rem;
+    height: 20rem;
+}
+
+.titulo-columna-2 {
+    font-size: 2.1rem;
+    color: white;
+    line-height: 0.4rem;
+}
+
+.p-colum2 {
+    color: #989898;
+}
+
+.p-colum-n {
+    color: white;
+}
+
+.img-pan {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+}
+
+.img-pan-n {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-pan-tamaño {
+    max-width: 100%;
+    width: 6.5rem;
+    height: 4rem;
+    margin-right: 3rem;
+}
+
+/*===========================================================================================*/
+
+.linea-h {
+    color: white;
+    border: 0;
+    height: 2px;
+    background-color: #333; 
+    margin: 20px 0;
+}
+
+.align-b {
+    display: flex;
+    justify-content: center;
+}
+
+.boton-pan {
+    border-radius: 0.2rem;
+    border: 1px solid #b28405;
+    background-color: #b28405;
+    color: white;
+    height: 2rem;
+    width: 5rem;
+}
+.boton-pan:hover {
+    background-color: #795300;
+    cursor: pointer;
+    border-color: #795300;
+}
 
 
 
