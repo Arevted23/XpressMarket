@@ -1,3 +1,7 @@
+body {
+    margin: 0rem;
+}
+
 .img-header {
     /* background-image: url(../img/header/35072977_faUlr2N0hoZGktSvgABlRsLhJtXQzt5bCu3_p0VsAFM.jpg);  */
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/header/35072977_faUlr2N0hoZGktSvgABlRsLhJtXQzt5bCu3_p0VsAFM.jpg);
