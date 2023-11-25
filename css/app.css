@@ -1,3 +1,14 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body {
+    margin: 0;
+}
+
 .img-header {
     /* background-image: url(../img/header/35072977_faUlr2N0hoZGktSvgABlRsLhJtXQzt5bCu3_p0VsAFM.jpg);  */
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/header/35072977_faUlr2N0hoZGktSvgABlRsLhJtXQzt5bCu3_p0VsAFM.jpg);
