@@ -1,1 +1,109 @@
 @use 'base/variables' as v;
+
+/**Header*/
+
+.img-header {
+    /* background-image: url(../img/header/35072977_faUlr2N0hoZGktSvgABlRsLhJtXQzt5bCu3_p0VsAFM.jpg);  */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header/35072977_faUlr2N0hoZGktSvgABlRsLhJtXQzt5bCu3_p0VsAFM.jpg);
+    max-width: 100%;
+    width: auto;
+    height: 39rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-img {
+    margin-top: -1rem;
+    padding-left: 2.8rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+.li-input {
+    padding-top: 2.5rem;
+    padding-left: 6rem;
+}
+
+.input-class {
+    border: 1px solid white;
+    border-radius: 0.7rem;
+    width: 25rem;
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+.li-button {
+    margin-top: 2.7rem;
+}
+
+.btn-buscar {
+    border-radius: 0.5rem;
+    border: 1px solid #b28405;
+    background-color: #b28405;
+    color: white;
+    height: 2rem;
+    width: 5rem;
+}
+
+.btn-buscar:hover {
+    background-color: #795300;
+    border: #795300;
+    cursor: pointer;
+}
+
+.li-svg svg {
+    padding-right: 0.5rem;
+}
+
+.li-link {
+    padding-top: 2.6rem;
+    margin-left: 3rem;
+}
+
+.user-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.user-link:hover {
+    color: #b28405;
+}
+
+.li-carrito {
+    padding-top: 2.7rem;
+}
+
+.li-departamento {
+    padding-top: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.align-ph {
+    margin-top: 7rem;
+}
+
+.design-l {
+    display: flex;
+    justify-content: center;
+    color: white;
+    line-height: 1.2rem;
+}
+
+.design-2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    line-height: 0.2rem;
+}

@@ -1,0 +1,160 @@
+/**Separador*/
+
+.separador {
+    background-color: white;
+    padding: 3rem;
+    background-image: url(../img/header/bg-wine@2x.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.frase-separador {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.centrar-hr {
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+}
+
+.linea-h1 {
+    border: 0;
+    width: 8rem;
+    height: 2px;
+    background-color: #795300;
+    margin: 5px 0;
+}
+
+.vinos-center {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.vino-both {
+    margin-top: 1.5rem;
+    color: white;
+}
+
+.duckhorn-vino {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-left: -1.8rem;
+    color: #795300;
+}
+
+.div-color {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    /* background-color: black; */
+    background-color: #0a0a0a;
+    padding: 10rem;
+}
+
+.logo-img-bread {
+    width: 7rem;
+    height: 7rem;
+}
+
+.acomodo {
+    margin-top: -10rem;
+    margin-left: -6.8rem;
+}
+
+.acomodo-2 {
+    margin: 3rem 2rem 1rem -6.8rem;
+}
+
+.img-2 {
+    width: 30rem;
+    height: 20rem;
+}
+
+.titulo-columna-2 {
+    font-size: 2.1rem;
+    color: white;
+    line-height: 0.4rem;
+}
+
+.p-colum2 {
+    color: #989898;
+}
+
+.p-colum-n {
+    color: white;
+}
+
+.img-pan {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+}
+
+.img-pan-n {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-pan-tamaño {
+    max-width: 100%;
+    width: 6.5rem;
+    height: 4rem;
+    margin-right: 3rem;
+}
+
+.linea-h {
+    color: white;
+    border: 0;
+    height: 2px;
+    background-color: #333;
+    margin: 20px 0;
+}
+
+.align-b {
+    display: flex;
+    justify-content: center;
+}
+
+.boton-pan {
+    border-radius: 0.2rem;
+    border: 1px solid #b28405;
+    background-color: #b28405;
+    color: white;
+    height: 2rem;
+    width: 5rem;
+}
+
+.boton-pan:hover {
+    background-color: #795300;
+    cursor: pointer;
+    border-color: #795300;
+}
+
+.acomodo-vino {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    margin-left: 2rem;
+}
+
+.img-wine {
+    width: 5rem;
+    height: 20rem;
+    margin-right: 2rem;
+}
+
+.img-wine2 {
+    width: 14rem;
+    height: 24rem;
+    margin-right: 2rem;
+}
